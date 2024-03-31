@@ -1,26 +1,51 @@
-This project was generated from [create.xyz](https://create.xyz/).
+# 画像生成AIサイト
 
-It is a [Next.js](https://nextjs.org/) project built on React and TailwindCSS.
+このアプリケーションは、ユーザーがテキストを入力すると、そのテキストに基づいてAIが画像を生成する完全無料のサービスです。
 
-## Getting Started
+## 機能
 
-First, run the development server:
+- テキストを入力して画像を生成する
+- 生成された画像をダウンロードする
+- 生成された画像の履歴を閲覧する
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 技術スタック
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- フロントエンド：React
+- バックエンド：create.xyz API（stable-diffusion エンドポイント）
+- スタイリング：Tailwind CSS
 
-You can start editing the code in `src`. The page auto-updates as you edit the file.
+## インストールと実行方法
 
-To learn more, take a look at the following resources:
+1. リポジトリをクローンします。
+
+git clone <リポジトリのURL>
+
+markdown
+Copy code
+
+2. プロジェクトディレクトリに移動します。
+
+cd <プロジェクトディレクトリ>
+
+markdown
+Copy code
+
+3. 必要なパッケージをインストールします。
+
+npm install
+
+markdown
+Copy code
+
+4. アプリケーションを起動します。
+
+npm start
+
+markdown
+Copy code
+
+5. ブラウザで [http://localhost:3000](http://localhost:3000) を開いてアプリケーションを確認します。
+
 
 - [React Documentation](https://react.dev/) - learn about React
 - [TailwindCSS Documentation](https://tailwindcss.com/) - learn about TailwindCSS
